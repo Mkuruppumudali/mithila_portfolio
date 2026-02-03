@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Mithila Kuruppumudali - Full-Stack Developer Portfolio",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "tsc && node dist/main.js",
+    "dev": "webpack serve --mode development",
+    "prod": "webpack --mode production"
+  },
+  "keywords": [
+    "portfolio",
+    "developer"
+  ],
+  "author": "Mithila Kuruppumudali",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "copy-webpack-plugin": "^13.0.1",
+    "css-loader": "^7.1.3",
+    "html-webpack-plugin": "^5.6.6",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
