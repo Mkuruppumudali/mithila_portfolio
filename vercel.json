@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "webpack.config.ts",
-      "use": "@vercel/static-build"
-    }
-  ],
   "buildCommand": "npm run prod",
   "outputDirectory": "dist"
 }
